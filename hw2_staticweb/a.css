@@ -76,6 +76,8 @@ body{
     text-align:center;
     background-color: #0000ff;
     margin: 15vh 0px 0px 6vw;
+    background-image: url( 'https://scontent.ftpe10-1.fna.fbcdn.net/v/t1.0-9/26230279_682090535457482_8516433266350110476_n.jpg?oh=8d500008a72049222442c243257a61a6&oe=5B448942' );
+    background-size: 100%;
 }
 
 .card {
@@ -85,5 +87,7 @@ body{
     text-align:center;
     background-color: #0000ff;
     margin: 9vh 0px 0px 6vw;
+    background-image: url( 'https://scontent.ftpe10-1.fna.fbcdn.net/v/t1.0-9/26230279_682090535457482_8516433266350110476_n.jpg?oh=8d500008a72049222442c243257a61a6&oe=5B448942' );
+    background-size: 100%;
 }
 

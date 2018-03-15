@@ -54,7 +54,6 @@ function delimage(thisImg) {
 }
 
 $(document).ready(function() {
-    alert('ready');
     
     $("#startbtn").click(function() {
         if(state!=9) return;
