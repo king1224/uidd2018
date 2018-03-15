@@ -1,0 +1,89 @@
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+}
+
+#LeftBox{
+    width:30%;
+    height:100%;
+    float:left;
+    text-align:center;
+    background-color:#2F4F4F;
+}
+
+#playmenu {
+    z-index: 99;
+    top: 15%;
+    left: -8%;
+    min-width: 200px;
+    list-style: none;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 30px;
+    position: relative;
+}
+
+#playmenu li {
+    border-bottom: #2F4F4F 30px solid;
+    float: top;
+}
+
+#playmenu > li:last-child {
+    border-bottom: none;
+    border-right: none;
+}
+
+#playmenu a {
+    background-color: #ffffff;
+    color: #333333;
+    display: block;
+    text-decoration: none;
+    line-height: 60px;
+    text-align: center;
+}
+
+#playmenu a:hover {
+    background-color: #ef5c28;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#RightBox{
+    width:70%;
+    height:100%;
+    float:left;
+    background-color:#ffff00;
+    text-align:left;
+}
+
+#timeshower{
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+    color:#00BFFF;
+    text-decoration: none;
+    position: fixed;
+    margin: 0px 0px 0px 100px;
+}
+
+.cardfirst {
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    text-align:center;
+    background-color: #0000ff;
+    margin: 15vh 0px 0px 6vw;
+}
+
+.card {
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    text-align:center;
+    background-color: #0000ff;
+    margin: 9vh 0px 0px 6vw;
+}
+
