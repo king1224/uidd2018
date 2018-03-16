@@ -1,5 +1,7 @@
 html{
     height:100%;
+    overflow: hidden;
+    -moz-user-select: none;
 }
 
 body{
@@ -69,25 +71,54 @@ body{
     margin: 0px 0px 0px 100px;
 }
 
-.cardfirst {
-    width: 10vw;
-    height: 10vw;
-    float: left;
-    text-align:center;
-    background-color: #0000ff;
-    margin: 15vh 0px 0px 6vw;
-    background-image: url( 'https://scontent.ftpe10-1.fna.fbcdn.net/v/t1.0-9/26230279_682090535457482_8516433266350110476_n.jpg?oh=8d500008a72049222442c243257a61a6&oe=5B448942' );
-    background-size: 100%;
-}
-
 .card {
     width: 10vw;
     height: 10vw;
-    float: left;
     text-align:center;
     background-color: #0000ff;
-    margin: 9vh 0px 0px 6vw;
     background-image: url( 'https://scontent.ftpe10-1.fna.fbcdn.net/v/t1.0-9/26230279_682090535457482_8516433266350110476_n.jpg?oh=8d500008a72049222442c243257a61a6&oe=5B448942' );
     background-size: 100%;
+    position: absolute;
+    margin: 15vh 0px 0px 6vw;
 }
+
+.introduction{
+    z-index:100;
+    position: absolute;
+    background-color: #ffffff;
+    width: 80vw;
+    height: 80vh;
+    text-align: left;
+    margin: 10vh 0px 0px 75vw;
+}
+
+.quit{
+    z-index:100;
+    position: absolute;
+    background-color: #00ffff;
+    background-image: url("image/arrow.jpg");
+    background-size: 100%;
+    width: 1cm;
+    height: 1cm;
+    text-align:center;
+    margin: 0vh 0px 0px 0vw;
+}
+
+.pic{
+    z-index:100;
+    position: absolute;
+    background-color: #ffffff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 80%;
+    text-align:center;
+    margin: 7% 0px 0px 6%;
+}
+
+.introcontent{
+    padding-left: 55%;
+    font-size: 25px;
+}
+
 
