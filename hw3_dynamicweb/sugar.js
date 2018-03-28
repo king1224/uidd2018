@@ -53,7 +53,7 @@ window.onload = function () {
 function showbtn(){
     $(".gamebtn").animate({
         opacity: 1
-    });
+    },1000);
 }
 
 $(document).ready(function() {
@@ -64,15 +64,15 @@ $(document).ready(function() {
             $("#circleA"+i).animate({
                 left: posxA[i]+'%',
                 top: posyA[i]+'%'
-            },500);
+            },1000);
             $("#circleB"+i).animate({
                 left: posxB[i]+'%',
                 top: posyB[i]+'%'
-            },500);
+            },1000);
             $("#circleC"+i).animate({
                 left: posxC[i]+'%',
                 top: posyC[i]+'%'
-            },500);
+            },1000);
         }
         for(var i=4;i<=6;++i){
             calcx = ( posxA[i] * 0.01 * $(window).width()) - 50 + "px";
@@ -80,26 +80,26 @@ $(document).ready(function() {
             $("#circleA"+i).animate({
                 left: calcx,
                 top: posyA[i]+'%'
-            },500);
+            },1000);
             $("#circleB"+i).animate({
                 left: posxB[i]+'%',
                 top: calcy
-            },500);
+            },1000);
             $("#circleC"+i).animate({
                 left: posxC[i]+'%',
                 top: posyC[i]+'%'
-            },500);
+            },1000);
         }
         for(var i=7;i<=9;++i){
             calcx = ( posxB[i] * 0.01 * $(window).width()) - 40 + "px";
             $("#circleB"+i).animate({
                 left: calcx,
                 top: posyB[i]+'%'
-            },500);
+            },1000);
             $("#circleC"+i).animate({
                 left: posxC[i]+'%',
                 top: posyC[i]+'%'
-            },500);
+            },1000);
         }
         for(var i=10;i<=12;++i){
             calcx = ( posxB[i] * 0.01 * $(window).width()) - 40 + "px";
@@ -107,15 +107,23 @@ $(document).ready(function() {
             $("#circleB"+i).animate({
                 left: calcx,
                 top: calcy
-            },500);
+            },1000);
             $("#circleC"+i).animate({
                 left: posxC[i]+'%',
                 top: posyC[i]+'%'
-            },500);
+            },1000);
         }
-        $("#sugar").css("opacity","0");
-        $("#title").css("opacity","0");
-        $("#said").css("opacity","0");
-        setTimeout('showbtn()',500);
+        $("#sugar").remove();
+        $("#title").remove();
+        $("#said").remove();
+        setTimeout('showbtn()',1000);
+    });
+    
+    $("#curebtn").click(function() {
+        location.href = 'pregame.html';
+    });
+    
+    $("#findbtn").click(function() {
+        location.href = 'factory.html';
     });
 });

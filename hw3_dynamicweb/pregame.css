@@ -1,0 +1,44 @@
+html{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    -moz-user-select: none;
+    background-color:#EADD63;
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+
+#cane1{
+    position: absolute;
+    width: 156px;
+    height: 252px;
+    right: calc(50% + 100px);
+    top: calc(50% - 126px);
+}
+
+#cane2{
+    position: absolute;
+    width: 156px;
+    height: 252px;
+    left: calc(50% + 100px);
+    top: calc(50% - 126px);
+}
+
+#startbtn{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: calc(50% - 85px);
+    top: calc(50% - 85px);
+}
+
+#startword{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: calc(50% - 75px);
+    top: calc(50% - 150px);
+}

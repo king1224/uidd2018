@@ -1,0 +1,39 @@
+html{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    -moz-user-select: none;
+    background-color:#DBAC79;
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+
+#train{
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    left: 35%;
+    top: 30%;
+}
+
+#title{
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: 35%;
+    top: 10%;
+}
+
+.factory{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 15%;
+    top: 30%;
+    margin: 0px 15% 4% 15%;
+}
+
+
